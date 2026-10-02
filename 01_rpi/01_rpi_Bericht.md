@@ -50,12 +50,22 @@ im Imager
 Lan Kabel einstecken und in Terminal ```ip addr``` eingeben
 
 Falsches Lan Kabel verwendet, deswegen kein internet verbindung (20 min Fehlersuche, ohne KI) 
+
+![alt text](images/image2.jpeg)
+
 ## Remote Desktop
 
 **Aufgabenstellung:**
 - Teste die Erreichbarkeit des RPi im Schulnetz per ping und ssh.
 - Arbeite nun weiter mit einer Kali VM auf einem Schulrechner. Teste auch hier die Verbindung zum RPi.
 - Konfiguriere Remote Desktop: Es soll von der Kali VM aus die GUI des RPi dargestellt werden können. Das Ziel dabei ist in weiterer Folge auf die eigenen Tastatur und Monitor am RPi verzichten zu können.
+
+**Was haben wir gemacht:**
+- Rasperry Pi gepingt
+![alt text](images/image3.png)
+- Rasperry Pi per ssh 
+![alt text](images/image4.png)
+
 
 ## Remote Development
 **Aufgabenstellung:**  
