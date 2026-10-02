@@ -45,6 +45,8 @@ im Imager
 - Rasberry Pi Connect: nicht aktivieren
 - Image: schreiben
 
+![alt text](images/image1.png)
+
 ## Remote Desktop
 
 **Aufgabenstellung:**
