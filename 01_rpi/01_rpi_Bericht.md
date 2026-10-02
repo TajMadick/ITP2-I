@@ -14,7 +14,9 @@
 
 ## Vorbereitung
  - Rasperberrypie Image Herunterladen
- 
+ ![alt text](image.png)
+
+
 ##  Start
 
 - Konfiguriere ein passendes Tastaturlayout
@@ -22,6 +24,21 @@
 - Setze einen eindeutigen Hostnamen.
 - Sicherheitsmaßnahme: Es soll kein Login mit Default Login Daten möglich sein.
 - Auf den RPi soll per SSH zugegriffen werden können. Konfiguriere weiters Login per SSH keys.
+
+- Imager Raspberry 3 
+- RPI OS 64 Bit auswählen
+- Speichermedium: Internal SD-Card medium
+- Hostname auswählen, unser Hostname: Berta
+- **Lokalisierung:** 
+- Hauptstadt: Vienna 
+- Zeitzone: Europe/Vienna 
+- Tastatur Layout: AT
+- Benutzername: berta
+- Passwort: berta123
+- WLAN: Überspringen -> Wir verwenden LAN
+- SSH: Aktivieren -> Passwort zu authentifizierung verwenden
+- Rasberrypie Connect: nicht aktivieren
+- Image: schreiben
 
 ## Remote Desktop
 
