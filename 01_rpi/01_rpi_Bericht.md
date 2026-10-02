@@ -47,6 +47,11 @@ im Imager
 
 ![alt text](images/image1.png)
 
+Lan Kabel einstecken und in Terminal 
+
+> ip addr 
+eingeben
+
 ## Remote Desktop
 
 **Aufgabenstellung:**
