@@ -60,4 +60,4 @@ Konfiguriere Visual Studio Code (sollte bei Kali schon installiert sein – zum 
 
 Folge z.B. dem Tutorial unter Visual Studio Code: Remote development over SSH. Hinweis: Azure ist nicht notwendig weil wir einen RPi als remote machine haben.
 
-Bringe den im Totorial beschriebenen Node JS express Server zum laufen.
+Bringe den im Totorial beschriebenen Node JS express Server zu laufen.
