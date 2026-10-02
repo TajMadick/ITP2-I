@@ -47,11 +47,9 @@ im Imager
 
 ![alt text](images/image1.png)
 
-Lan Kabel einstecken und in Terminal 
+Lan Kabel einstecken und in Terminal ```ip addr``` eingeben
 
-> ip addr 
-eingeben
-
+Falsches Lan Kabel verwendet, deswegen kein internet verbindung (20 min Fehlersuche, ohne KI) 
 ## Remote Desktop
 
 **Aufgabenstellung:**
