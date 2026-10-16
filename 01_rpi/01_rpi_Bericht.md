@@ -116,4 +116,7 @@ Bringe den im Totorial beschriebenen Node JS express Server zu laufen.
 ![alt text](images/image%20(8).png) 
 
 
-  
+  ## Unsere Probleme
+- Ethernet Connection hat anfangs nicht funktioniert (hat sich heraus gestellt DHCP Server hat nicht funktioniert)
+- Die ganze Zeit failed ssh connection
+- Rasperry Pi hat sich etliche Male aufgehängt
