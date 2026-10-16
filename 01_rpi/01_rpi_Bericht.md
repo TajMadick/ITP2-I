@@ -104,4 +104,16 @@ Bringe den im Totorial beschriebenen Node JS express Server zu laufen.
 ![alt text](images/image%20(6).png) 
 - ```configure host```
   ![alt text](images/Bild%20(4).png)
-- enter
+- enter clicken
+- Daten des Rpi im configuration einschreiben
+![alt text](images/Bild%20(5).png)
+- config speicher und zu machen
+- wieder links unten auf das Symbol clicken
+- connect to Host -> den IP des RPis auswählen -> enter
+- Passwort von berta eingeben
+ ![alt text](images/image%20(7).png)
+- Juhu es funktioniert
+![alt text](images/image%20(8).png) 
+
+
+  
