@@ -76,8 +76,13 @@ Falsches Lan Kabel verwendet, deswegen kein internet verbindung (20 min Fehlersu
 - bei VNC server den IP des RPis eingeben
   ![alt text](images/Média%20(8).jpg)
 - als nächste Berta und als Passwort: berta123
-![alt text](images/Média%20(7).jpg)
--  
+![alt ext](images/Média%20(7).jpg)
+
+![alt text](images/Média%20(15).jpg)
+- Runter zu -> about raspi-config
+![alt text](images/Média%20(14).jpg)
+![alt text](images/Média%20(16).jpg)
+- enterdrucken dann geht der Remote Steuerung.
   
 
 
@@ -88,3 +93,15 @@ Konfiguriere Visual Studio Code (sollte bei Kali schon installiert sein – zum 
 Folge z.B. dem Tutorial unter Visual Studio Code: Remote development over SSH. Hinweis: Azure ist nicht notwendig weil wir einen RPi als remote machine haben.
 
 Bringe den im Totorial beschriebenen Node JS express Server zu laufen.
+
+- Auf Kali Vs Code starten
+- Remote ssh extension auf das Vs code installieren
+  ![alt text](images/image%20(4).png)
+- als nächste Vs code neustarten 
+- links unten auf das symbol clicken
+-   ![alt text](images/image%20(5).png)
+- dann "connect to host" auswählen
+![alt text](images/image%20(6).png) 
+- ```configure host```
+  ![alt text](images/Bild%20(4).png)
+- enter
