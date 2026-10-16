@@ -88,3 +88,9 @@ Konfiguriere Visual Studio Code (sollte bei Kali schon installiert sein – zum 
 Folge z.B. dem Tutorial unter Visual Studio Code: Remote development over SSH. Hinweis: Azure ist nicht notwendig weil wir einen RPi als remote machine haben.
 
 Bringe den im Totorial beschriebenen Node JS express Server zu laufen.
+
+
+## Unsere Probleme
+- Ethernet Connection hat anfangs nicht funktioniert (hat sich heraus gestellt DHCP Server hat nicht funktioniert)
+- Die ganze Zeit failed ssh connection
+- Rasperry Pi hat sich etliche Male aufgehängt
