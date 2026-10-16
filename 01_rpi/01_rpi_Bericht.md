@@ -65,6 +65,22 @@ Falsches Lan Kabel verwendet, deswegen kein internet verbindung (20 min Fehlersu
 ![alt text](images/image3.png)
 - Rasperry Pi per ssh 
 ![alt text](images/image4.png)
+- Rpi von Kali (VmWare) pingen
+![alt text](images/image%20(1).png)
+- auf Kali ssh Verbindung zu Rpi erstellen ```ssh berta@10.200.83.121```
+-  dann auf berta remote Steuerung und Konfiguration erlauben durch ```sudo raspi config ```
+![alt text](images/Média%20(13).jpg)
+- Download VNC Server auf Kali
+![alt text](images/Média%20(12).jpg)
+![alt text](images/Média%20(10).jpg)
+- alles auf oke
+  ![alt text](images/Média%20(9).jpg)
+- bei VNC server den IP des RPis eingeben
+  ![alt text](images/Média%20(8).jpg)
+- als nächste Berta und als Passwort: berta123
+![alt text](images/Média%20(7).jpg)
+-  
+  
 
 
 ## Remote Development
