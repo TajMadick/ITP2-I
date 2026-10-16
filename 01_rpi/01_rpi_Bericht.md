@@ -115,6 +115,29 @@ Bringe den im Totorial beschriebenen Node JS express Server zu laufen.
 - Juhu es funktioniert
 ![alt text](images/image%20(8).png) 
 
+Node js server: 
+
+- Auf RPi ordner erstellen mit ``` mkdir -p ~/express-app```
+![alt text](images/Média%20(2).jpg) 
+- Auf den mit SSH verbundenen Kali oben den Pfad des orders eingeben 
+![alt text](images/Média%20(3).jpg) 
+- enter und Terminal aufmachen
+- Kontrollieren des Hostnames und npm und node version (falls auf Rpi nicht vorhanden npm und node herunterladen)
+  ![alt text](images/Média%20(4).jpg)
+- Leeren Node.js Projekt Setup erstellen mit ``` npm init -y```
+  ![alt text](images/Média%20(5).jpg)
+- Kleines js code aus dem Internet auskopieren
+- Terminal aufmachen, und mit ``` node server.js``` den Server host
+![alt text](images/servercode.jpg) 
+- Auf den RPi den link curlen mit ```curl http://localhost:3000```
+  ![alt text](images/curl.jpg) 
+
+
+ 
+ 
+
+
+
 
   ## Unsere Probleme
 - Ethernet Connection hat anfangs nicht funktioniert (hat sich heraus gestellt DHCP Server hat nicht funktioniert)
