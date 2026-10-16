@@ -64,6 +64,13 @@ unsere Verkablung:
 - SCL ist auf Pin 5
 - SDA ist auf Pin 3
 
+I2C Interface aktivieren:
+
+- in terminal ```sudo raspi-config``` eingeben
+- zu Interface Options
+- zu I2C
+- bei enable auf yes
+
 ## Weitere Aufgabenstellung
 
 **Aufgabenstellung:**
