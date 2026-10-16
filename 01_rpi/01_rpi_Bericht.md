@@ -1,8 +1,6 @@
 # Arbeitsbericht
  
-**Fach: ITSE**
- 
-**Thema: Telnet**
+**Fach: ITP2-I**
  
 **Name: Mate Szvercseg und Alexander Schauer**
  
