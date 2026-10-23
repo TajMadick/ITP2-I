@@ -199,6 +199,9 @@ sudo -u berta /home/berta/display_booter.sh
 - die letzte Zeile führt das Shell Skript von vorhin aus
 - ```-u berta``` führt es nicht als root sondern als berta aus da es sonst Konflikte mit Python Libs geben könnte
 
+# Result
+
+
 ## Probleme
 - SheBang zeile vergessen
 - Probleme mit Display Ansteuerung (display.show() vergessen)
