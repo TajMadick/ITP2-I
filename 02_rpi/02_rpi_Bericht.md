@@ -71,6 +71,43 @@ I2C Interface aktivieren:
 - zu I2C
 - bei enable auf yes
 
+Libary für Display installieren ```--break-system-packages``` notwendig sonst error
+```
+berta@Berta:~$ pip3 install adafruit-circuitpython-ssd1306 --break-system-packages
+Defaulting to user installation because normal site-packages is not writeable
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Collecting adafruit-circuitpython-ssd1306
+  Downloading https://www.piwheels.org/simple/adafruit-circuitpython-ssd1306/adafruit_circuitpython_ssd1306-2.12.24-py3-none-any.whl.metadata (5.3 kB)
+Collecti
+....
+```
+
+Fonts installieren:
+```
+wget https://github.com/adafruit/Adafruit_CircuitPython_framebuf/raw/main/examples/font5x8.bin  
+--2026-10-16 13:58:25--  https://github.com/adafruit/Adafruit_CircuitPython_framebuf/raw/main/examples/font5x8.bin
+Resolving github.com (github.com)... 20.250.119.67
+Connecting to github.com (github.com)|20.250.119.67|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/adafruit/Adafruit_CircuitPython_framebuf/main/examples/font5x8.bin [following]
+--2026-10-16 13:58:25--  https://raw.githubusercontent.com/adafruit/Adafruit_CircuitPython_framebuf/main/examples/font5x8.bin
+Resolving raw.githubusercontent.com
+....
+```
+
+Netifaces installieren: (gleiches wie oben mit --break-system-packages)
+```
+berta@Berta:~ $ pip install netifaces --break-system-packages
+Defaulting to user installation because normal site-packages is not writeable
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Collecting netifaces
+  Downloading netifaces-0.11.0.tar.gz (30 kB)
+  Preparing metadata
+....
+```
+
+Ein Python3 Skript Datei erstellen mit Namen display.py
+
 ## Weitere Aufgabenstellung
 
 **Aufgabenstellung:**
