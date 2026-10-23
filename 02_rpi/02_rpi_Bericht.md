@@ -108,6 +108,42 @@ Collecting netifaces
 
 Ein Python3 Skript Datei erstellen mit Namen display.py
 
+```py
+import ipaddress
+import netifaces
+# Bibliotheken importieren
+import board
+import adafruit_ssd1306
+import socket 
+# I2C-Verbindung zum Display herstellen
+i2c = board.I2C()
+ 
+# Display initialisieren (Breite: 128, Höhe: 64 Pixel)
+display = adafruit_ssd1306.SSD1306_I2C(128, 64, i2c)
+
+ipInfo = netifaces.ifaddresses('eth0')[netifaces.AF_INET][0]
+ip = ipInfo.get('addr')
+subnet = ipInfo.get('netmask')
+iface=ipaddress.IPv4Interface((ip,subnet))
+hostname = socket.gethostname()
+display.text(hostname, 0, 10, 1)
+display.text(hostname, 1, 10, 1)
+display.text(str(iface), 0, 20, 1)
+display.show()
+```
+
+Erklärung des Code Snippets:
+- adafruit_ssd1306 ist die Libary für Display
+- am Anfang wird Verbindung mit Board hergestellt und Display initialisiert
+- mit netifaces kann man die IP Adressen der einzelnen Interfaces bekommen (wir brauchen nur Interface eth0)
+- die libary ipaddress kann ip Adresse und Subnet verknüpfen
+- mit display.text kann man Text ausgeben
+- wo die IP adresse ausgegeben wird muss man das iface zu einem String machen
+- zum Schluss wichtig ```display.show()```
+
+
+python3 display.py ausführen und STAUNEN
+
 ## Weitere Aufgabenstellung
 
 **Aufgabenstellung:**
