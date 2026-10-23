@@ -201,6 +201,7 @@ sudo -u berta /home/berta/display_booter.sh
 
 # Result
 
+![alt_txt](Image.jpeg)
 
 ## Probleme
 - SheBang zeile vergessen
