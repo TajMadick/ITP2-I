@@ -172,3 +172,29 @@ Erklärung:
 ---
 
 **Bericht:**
+
+als erstes ein ausführbares Skript erstellen:
+```sh
+touch display_booter.sh
+chmod +x display_booter.sh
+```
+Inhalt des Skripts:
+```sh
+#!/bin/sh
+
+cd /home/berta
+python3 display.py > log.txt 2>&1 &
+```
+- Shebang Zeile (unser großer Fehler anscheinend ganz wichtig -> siehe Herr Probst Lektion unten)
+- in das Berta Home Verzeichnis gehen
+- das display.py Skript von vorhin ausführen und Fehler in log.txt speichern
+
+als nächstes dieses Skript beim Starten ausführen indem man in die Datei ```/etc/rc.local``` ausführbar macht mit ```chmod +x``` und in diese Datei folgendes schreibt
+```sh
+#!/bin/sh
+
+sudo -u berta /home/berta/display_booter.sh 
+```
+- wichtig Shebang Zeile!!!!
+- die letzte Zeile führt das Shell Skript von vorhin aus
+- ```-u berta``` führt es nicht als root sondern als berta aus da es sonst Konflikte mit Python Libs geben könnte
